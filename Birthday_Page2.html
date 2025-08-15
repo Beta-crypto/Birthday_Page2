@@ -430,6 +430,7 @@ html, body, .book, .book-pages, .flip-page, .page-inner-content, .cake-area, .ca
                     cake.style.margin = '0 auto';
                     cake.innerHTML = `
                     <div class="cake-info-left" style="position:absolute;top:44vw;left:33vw;z-index:30;max-width:30vw;width:30vw;text-align:left;padding-left:2vw;font-size:2rem;color:#b721ff;font-family:'Baloo','Fredoka One',cursive;word-break:break-word;">Trần Thị Yến Nhi</div>
+                    <div class="cake-reminder" style="position:absolute;top:3vw;left:50%;transform:translateX(-50%);z-index:40;font-size:1rem;color:#ff65a3;font-family:'Baloo','Fredoka One',cursive;text-shadow:0 0 12px #fffbe6,0 0 4px #b721ff;font-weight:bold;letter-spacing:2px;">Ước đi rồi thổi nến 🎂</div>
                     <div class="cake-info-right" style="position:absolute;top:35vw;right:29vw;z-index:30;max-width:30vw;width:30vw;text-align:right;padding-right:2vw;font-size:1.6rem;color:#e573b7;font-family:'Baloo','Fredoka One',cursive;word-break:break-word;">10/09/2002</div>
                     <div class="cake3d-container" style="position:relative;width:80vw;max-width:340px;height:80vw;max-height:340px;margin-top:-10vw;">
                       <div class="cake-base" style="position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:65vw;max-width=260px;height:18vw;max-height:70px;background:linear-gradient(120deg,#fffbe6 60%,#ffe6f7 100%);border-radius:0 0 20vw 20vw/0 0 14vw 14vw;box-shadow:0 1vw 4vw #f7b7b7,0 0 0 2vw #f7b7b7;z-index:1;"></div>
@@ -443,7 +444,7 @@ html, body, .book, .book-pages, .flip-page, .page-inner-content, .cake-area, .ca
                       <div class="candle-flame flame2" style="position:absolute;left:50%;bottom:38vw;width:4vw;max-width=18px;height:4vw;max-height:18px;transform:translateX(-50%);z-index:11;cursor:pointer;animation:flameTwinkle 0.7s infinite alternate;"><div class="flame-inner" style="width:100%;height:100%;border-radius:50% 50% 60% 60%/60% 60% 100% 100%;background:radial-gradient(circle at 60% 40%,#fffbe6 40%,#ffe066 70%,#ff9800 100%);box-shadow:0 0 4vw 1vw #ffe066,0 0 2vw 0.5vw #ff9800;"></div></div>
                       <div class="candle-flame flame3" style="position:absolute;left:calc(50% + 10vw);bottom:38vw;width:4vw;max-width=18px;height:4vw;max-height:18px;z-index:11;cursor:pointer;animation:flameTwinkle 0.7s infinite alternate;"><div class="flame-inner" style="width:100%;height:100%;border-radius:50% 50% 60% 60%/60% 60% 100% 100%;background:radial-gradient(circle at 60% 40%,#fffbe6 40%,#ffe066 70%,#ff9800 100%);box-shadow:0 0 4vw 1vw #ffe066,0 0 2vw 0.5vw #ff9800;"></div></div>
                     </div>
-                     <button id="birthdayBtn" style="display:none;position:absolute;top:-56px;left:50%;transform:translateX(-50%);background:#f67280;color:#fffbe6;border:none;border-radius:12px;padding:12px 32px;box-shadow:0 4px 16px #f7b7b7;z-index:20;font-size:1.2rem;font-weight:bold;cursor:pointer;">🎉 Đi nữa hong! Món quà cuối 🎂</button>
+                     <button id="birthdayBtn" style="display:none;position:absolute;top:-56px;left:50%;transform:translateX(-50%);background:#f67280;color:#fffbe6;border:none;border-radius:12px;padding:12px 32px;box-shadow:0 4px 16px #f7b7b7;z-index:20;font-size:1.2rem;font-weight:bold;cursor:pointer;">🎉Lẹ lẹ đi, món quà cuối nè 🎂</button>
                     <style>
                     @keyframes flameTwinkle {
                       0% { transform: scaleY(1) scaleX(1); filter: blur(0px); }
@@ -694,3 +695,4 @@ function initCake3D() {
     </script>
 </body>
 </html>
+
